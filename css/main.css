@@ -1,0 +1,247 @@
+header {
+  display: flex;
+  background-image: url(/images/background-hero.jpg);
+  width: 375px;
+  height: 1104px;
+  background-position: center;
+  flex-direction: column;
+}
+header .hero-der {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  margin: 20px;
+}
+header .hero-bootstrap {
+  font-size: 24px;
+  color: #FFFFFF;
+}
+header .hero-span {
+  color: #FFFFFF;
+  margin: 0px 0px 0px 20px;
+  font-size: 58.15px;
+  font-weight: 900;
+  font-family: "DM Sans", sans-serif;
+  flex-direction: column;
+}
+header .hero-button {
+  display: flex;
+  justify-content: center;
+}
+header .hero-button .hero-btn {
+  background-color: #DD2242;
+  border: none;
+  border-radius: 107.63px;
+  width: 315px;
+  height: 59px;
+  color: #FFFFFF;
+}
+header .hero-titles {
+  display: flex;
+  justify-content: center;
+  width: 314px;
+  height: 672px;
+  background-color: #000000;
+  margin: 35px;
+  background: rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+}
+header .hero-titles .titles-hero {
+  margin: 10px;
+}
+header .hero-titles .titles-hero .one {
+  display: flex;
+  justify-content: left;
+  color: #DD2242;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: "DM Sans", sans-serif;
+}
+header .hero-titles .titles-hero .title-hero {
+  font-size: 26.41px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #FFFFFF;
+}
+header .hero-titles .titles-hero .div-span {
+  display: flex;
+  flex-direction: column;
+  color: #939393;
+  font-size: 16px;
+}
+header .hero-titles .hero-img {
+  display: flex;
+  justify-content: center;
+}
+
+.main-section {
+  background-image: url(/images/walking.webp);
+  width: 375px;
+  height: 1554px;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(1, 10, 32);
+}
+.main-section .photo {
+  margin: 30px 0px 0px 0px;
+}
+.main-section .main-photo {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+.main-section .main-span {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #FFFFFF;
+}
+.main-section .second-span {
+  margin: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  color: #E0E0E0;
+}
+.main-section .main-button {
+  display: flex;
+  justify-content: center;
+}
+.main-section .button-main {
+  background-color: #DD2242;
+  color: #FFFFFF;
+  width: 314px;
+  height: 72px;
+  border-radius: 32px;
+  border: none;
+  font-size: 18px;
+}
+
+.main-secrets {
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/bigmounain.webp);
+  width: 375px;
+  height: 1031px;
+}
+.main-secrets .secrets-span {
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #010A20;
+}
+.main-secrets .secter-span {
+  display: flex;
+  justify-content: center;
+}
+.main-secrets .nav-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-secrets .group-main {
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px 0px 0px;
+}
+
+.main-numbers {
+  width: 376px;
+  height: 929px;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(1, 10, 32);
+}
+.main-numbers .numbers-span {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  color: #FFFFFF;
+}
+.main-numbers .span-lorem {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #E0E0E0;
+}
+.main-numbers .numbers-columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+}
+.main-numbers .hundread {
+  color: #DD2242;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+}
+.main-numbers .numbers-lorem {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  color: #E0E0E0;
+}
+
+.section-hills {
+  background-image: url(/images/left-decor.webp);
+  width: 375px;
+  height: 314px;
+}
+.section-hills .hills-direction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+}
+
+.section-hill {
+  background-image: url(/images/right-decor.webp);
+  width: 375px;
+  height: 314px;
+}
+.section-hill .hills-directions {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #6F7787;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+}
+.section-hill .hills-button {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.section-hill .hills-btn {
+  width: 314px;
+  height: 73px;
+  border-radius: 122px;
+  border: none;
+  background-color: #DD2242;
+  color: #FFFFFF;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}

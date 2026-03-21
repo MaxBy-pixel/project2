@@ -1,0 +1,169 @@
+.main-section {
+    background-image: url(/images/walking.webp);
+    width: 375px;
+        height: 1554px;
+        background-position: center;
+        background-size: cover;
+        background-color: rgba(1, 10, 32, 1);
+        .photo {
+            margin: 30px 0px 0px 0px;
+        }
+        .main-photo {
+            display: flex;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        .main-span {
+            display: flex;
+            flex-direction: column;
+            margin: 40px;
+            font-size: 40px;
+            font-weight: 700;
+            font-family: "DM Sans", sans-serif;
+            color: $colorWhite;
+        }
+        .second-span {
+            margin: 40px;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: "DM Sans", sans-serif;
+            color: #E0E0E0;
+        }
+        .main-button {
+            display: flex;
+            justify-content: center;
+          
+        }
+        .button-main {
+            background-color: #DD2242;
+            color: $colorWhite;
+            width: 314px;
+            height: 72px;
+            border-radius: 32px;
+            border: none;
+            font-size: 18px;
+        }
+}
+.main-secrets {
+    background-position: center;
+    background-size: cover;
+    background-image: url(/images/bigmounain.webp);
+    width: 375px;
+    height: 1031px;
+            .secrets-span {
+                    display: flex;
+                    flex-direction: column;
+            
+                    font-size: 40px;
+                    font-weight: 700;
+                    font-family: "DM Sans", sans-serif;
+                    color: #010A20;
+                }
+            
+                .secter-span {
+                    display: flex;
+                    justify-content: center;
+                }
+                .nav-main {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .group-main {
+                    background: rgba(0, 0, 0, 0.5);
+                    display: flex;
+                    justify-content: center;
+                    margin: 40px 0px 0px 0px;
+                }
+}
+.main-numbers {
+    width: 376px;
+    height: 929px;
+    background-position: center;
+        background-size: cover;
+        background-color: rgba(1, 10, 32, 1);
+        .numbers-span {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            font-size: 40px;
+            font-weight: 700;
+            font-family: "DM Sans", sans-serif;
+            color: $colorWhite;
+        }
+        .span-lorem {
+             font-family: "DM Sans", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: #E0E0E0;
+        }
+        .numbers-columns {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 50px;
+        }
+        .hundread {
+            color: #DD2242;
+            font-size: 40px;
+            font-weight: 700;
+            font-family: "DM Sans", sans-serif;
+        }
+        .numbers-lorem {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: "DM Sans", sans-serif;
+            color: #E0E0E0;
+        }
+}
+.section-hills {
+    background-image: url(/images/left-decor.webp);
+    width: 375px;
+    height: 314px;
+    .hills-direction {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 40px;
+        font-weight: 700;
+            font-family: "DM Sans", sans-serif;
+    }
+}
+.section-hill {
+    background-image: url(/images/right-decor.webp);
+        width: 375px;
+        height: 314px;
+        .hills-directions {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            color: #6F7787;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: "DM Sans", sans-serif;
+        }
+        .hills-button {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+        .hills-btn {
+            width: 314px;
+            height: 73px;
+            border-radius: 122px;
+            border: none;
+            background-color: #DD2242;
+            color: #FFFFFF;
+                font-family: "DM Sans", sans-serif;
+                font-weight: 700;
+        }
+}

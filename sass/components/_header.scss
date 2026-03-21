@@ -1,0 +1,82 @@
+
+$colorWhite: #FFFFFF;
+$сolorRed: #DD2242;
+header {
+    display: flex;
+    background-image: url(/images/background-hero.jpg);
+    width: 375px;
+    height: 1104px;
+    background-position: center;
+        flex-direction: column;
+    .hero-der {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 120px;
+            margin: 20px;
+        }
+    
+        .hero-bootstrap {
+            font-size: 24px;
+            color: $colorWhite;
+        }
+    
+        .hero-span {
+            color: $colorWhite;
+            margin: 00px 0px 0px 20px;
+            font-size: 58.15px;
+            font-weight: 900;
+            font-family: "DM Sans", sans-serif;
+            flex-direction: column;
+        }
+        .hero-button {
+            display: flex;
+            justify-content: center;
+            .hero-btn {
+                background-color: $сolorRed;
+                border: none;
+                border-radius: 107.63px;
+                width: 315px;
+                height: 59px;
+                color: $colorWhite;
+            }
+        }
+        .hero-titles {
+            display: flex;
+            justify-content: center;
+            width: 314px;
+            height: 672px;
+            background-color: #000000; 
+            margin: 35px;
+            background: rgba(0, 0, 0, 0.5);
+            flex-direction: column;
+            .titles-hero {
+                margin: 10px;
+                .one {
+                        display: flex;
+                        justify-content: left;
+                        color: $сolorRed;
+                        font-size: 16px;
+                        font-weight: 900;
+                        font-family: "DM Sans", sans-serif;
+                    }
+                .title-hero {
+                    font-size: 26.41px;
+                    font-weight: 700;
+                    font-family: "DM Sans", sans-serif;
+                    color: $colorWhite;
+                }
+                .div-span {
+                    display: flex;
+                    flex-direction: column;
+                    color: #939393;
+                    font-size: 16px;
+                }
+            }
+            .hero-img {
+                display: flex;
+                justify-content: center;
+                
+            }
+        }
+}
