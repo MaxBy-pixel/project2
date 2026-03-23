@@ -70,7 +70,6 @@
                     justify-content: center;
                 }
                 .group-main {
-                    background: rgba(0, 0, 0, 0.5);
                     display: flex;
                     justify-content: center;
                     margin: 40px 0px 0px 0px;
@@ -168,7 +167,270 @@
         }
 }
 .main-sunshine {
-    background-image: url(/images/right-decor.webp);
+    background-image: url(/images/liveokaxf.webp);
         width: 375px;
-        height: 314px;
+        height: 1601px;
+        background-position: center;
+        background-size: cover;
+                    margin: 0px;
+        .sunshine-text {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+            color: #FFFFFF;
+            font-weight: 700;
+                font-family: "DM Sans", sans-serif;
+            font-size: 25px;
+        }
+        .sunshine-photoblog {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 50px;
+        }
+        .sunshine-texta {
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 60px;
+        }
+        .sunshine-texting {
+            font-weight: 700;
+            font-size: 22px;
+            font-family: "DM Sans", sans-serif;
+            color: #FFFFFF;
+        }
+        .sunshine-lorem {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+        }
+        .sunshine-lorem {
+            font-weight: 400;
+            font-size: 16px;
+            font-family: "DM Sans", sans-serif;
+                color: #FFFFFF;
+                opacity: 70%;
+        }
+        .sunshine-images {
+            padding: 20px;
+        }
+}
+.photoblog {
+    width: 375px;
+    height: 900px;
+    background-color: #FFFFFF;
+    .photoblog-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        font-size: 40px;
+        font-weight: 700;
+        font-family: "DM Sans", sans-serif;
+    }
+    .photoblog-lorem {
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            font-weight: 400;
+            font-size: 16px;
+            color: #6F7787;
+    }
+}
+.image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .box-one {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 10px;
+            gap: 30px;
+        }
+    
+        .box-two {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 10px;
+            gap: 30px;
+        }
+}
+.up-footer {
+    width: 375px;
+    height: 1539px;
+    background-color: #DCE8F2;
+    .up-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 40px;
+        font-family: "DM Sans", sans-serif;
+        padding: 40px;
+    }
+    .up-circe {
+        display: flex;
+        justify-content: center;
+        color: #FFFFFF;
+    }
+    .up-info {
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .booking {
+        color: #010A20;
+        font-weight: 700;
+        font-size: 22px;
+        font-family: "DM Sans", sans-serif;
+    }
+    .up-lorem {
+        color: #15143966;
+        font-weight: 400;
+        font-size: 16px;
+        font-family: "DM Sans", sans-serif;
+    }
+    .show-up {
+        color: #DD2242;
+        font-weight: 400;
+        font-size: 16px;
+        font-family: "DM Sans", sans-serif;
+        
+    }
+    .up-photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-up {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        justify-content: baseline;
+        
+    }
+    .footer-un {
+        width: 375px;
+        height: 723px;
+        background-color: #010A20;
+    }
+    .footer-list {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 22.94px;
+        gap: 50px;
+    }
+    .list {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 50px;
+        font-size: 32px;
+        color: #FFFFFF;
+    }
+    .cope {
+            display: flex;
+                justify-content: center;
+                flex-direction: row;
+                gap: 50px;
+                font-size: 32px;
+                color: #FFFFFF;
+                margin: 20px;
+                 font-family: "DM Sans", sans-serif;
+                 font-weight: 700;
+    }
+}
+@media (max-width: 760px) {
+        .explore {
+                display: none;
+            }
+}
+@media (min-width: 760px)
+{
+    .main-section {
+        width: auto;
+        height: 1624px;
+        margin: 0;
+    }
+    .main-photo {
+        display: flex;
+        justify-content: center;
+    }
+    .photo {
+        width: 630.3433837890625px;
+        height: 460px;
+    }
+    .main-photoa {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        padding: 100px;
+    }
+    .info-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .second-span {
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+    }  
+                .main-secrets {
+                    background-position: center;
+                    background-size: cover;
+                    background-image: url(/images/bigmounain.webp);
+                    width: auto;
+                    height: 2207px;
+                }
+                .secter-span {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
+                .kokos {
+                    display: none;
+                }
+                 .explore {
+                     
+                     gap: 60px;
+                } 
+                .exlore-menu {
+                    display: flex;
+                    justify-content: center;
+                    gap: 40px;
+                }
+                .bi-caret-left-fill {
+                    padding: 30px;
+                }
+                .bi-caret-right-fill {
+                    padding: 30px;
+                }
+                .main-numbers {
+                    width: auto;
+                        height: 794px;
+                        background-position: center;
+                        background-size: cover;
+                        background-color: rgba(1, 10, 32, 1);
+                }
 }
