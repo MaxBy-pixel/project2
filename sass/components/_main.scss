@@ -77,20 +77,10 @@
 }
 .main-numbers {
     width: 376px;
-    height: 929px;
+    height: 1009px;
     background-position: center;
         background-size: cover;
         background-color: rgba(1, 10, 32, 1);
-        .numbers-span {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            font-size: 40px;
-            font-weight: 700;
-            font-family: "DM Sans", sans-serif;
-            color: $colorWhite;
-        }
         .span-lorem {
              font-family: "DM Sans", sans-serif;
             font-size: 16px;
@@ -173,17 +163,6 @@
         background-position: center;
         background-size: cover;
                     margin: 0px;
-        .sunshine-text {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            padding: 50px;
-            color: #FFFFFF;
-            font-weight: 700;
-                font-family: "DM Sans", sans-serif;
-            font-size: 25px;
-        }
         .sunshine-photoblog {
             display: flex;
             justify-content: center;
@@ -191,62 +170,18 @@
             flex-direction: column;
             gap: 50px;
         }
-        .sunshine-texta {
-            flex-direction: column;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 60px;
-        }
+
         .sunshine-texting {
             font-weight: 700;
             font-size: 22px;
             font-family: "DM Sans", sans-serif;
             color: #FFFFFF;
         }
-        .sunshine-lorem {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            gap: 10px;
-        }
-        .sunshine-lorem {
-            font-weight: 400;
-            font-size: 16px;
-            font-family: "DM Sans", sans-serif;
-                color: #FFFFFF;
-                opacity: 70%;
-        }
         .sunshine-images {
             padding: 20px;
         }
 }
-.photoblog {
-    width: 375px;
-    height: 900px;
-    background-color: #FFFFFF;
-    .photoblog-main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 20px;
-        font-size: 40px;
-        font-weight: 700;
-        font-family: "DM Sans", sans-serif;
-    }
-    .photoblog-lorem {
-        display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding: 20px;
-            font-weight: 400;
-            font-size: 16px;
-            color: #6F7787;
-    }
-}
+
 .image-box {
     display: flex;
     justify-content: center;
@@ -268,101 +203,112 @@
             gap: 30px;
         }
 }
-.up-footer {
-    width: 375px;
-    height: 1539px;
-    background-color: #DCE8F2;
-    .up-text {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: 700;
-        font-size: 40px;
-        font-family: "DM Sans", sans-serif;
-        padding: 40px;
-    }
-    .up-circe {
-        display: flex;
-        justify-content: center;
-        color: #FFFFFF;
-    }
-    .up-info {
-        margin: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .booking {
-        color: #010A20;
-        font-weight: 700;
-        font-size: 22px;
-        font-family: "DM Sans", sans-serif;
-    }
-    .up-lorem {
-        color: #15143966;
-        font-weight: 400;
-        font-size: 16px;
-        font-family: "DM Sans", sans-serif;
-    }
-    .show-up {
-        color: #DD2242;
-        font-weight: 400;
-        font-size: 16px;
-        font-family: "DM Sans", sans-serif;
-        
-    }
-    .up-photo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .footer-up {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        justify-content: baseline;
-        
-    }
-    .footer-un {
-        width: 375px;
-        height: 723px;
-        background-color: #010A20;
-    }
-    .footer-list {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        color: #FFFFFF;
-        font-weight: 700;
-        font-size: 22.94px;
-        gap: 50px;
-    }
-    .list {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        gap: 50px;
-        font-size: 32px;
-        color: #FFFFFF;
-    }
-    .cope {
-            display: flex;
-                justify-content: center;
-                flex-direction: row;
-                gap: 50px;
-                font-size: 32px;
-                color: #FFFFFF;
-                margin: 20px;
-                 font-family: "DM Sans", sans-serif;
-                 font-weight: 700;
-    }
-}
 @media (max-width: 760px) {
         .explore {
                 display: none;
             }
+            .numbers-span {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                font-size: 40px;
+                font-weight: 700;
+                font-family: "DM Sans", sans-serif;
+                color: $colorWhite;
+            }
+            .our-hills {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .nothing {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    font-size: 42px;
+                    font-weight: 700;
+                            font-family: "DM Sans", sans-serif;
+                }
+                                 .section-hills {
+                                     background-image: url(/images/left-decor.webp);
+                                     width: 375px;
+                                     height: 621px;
+                                     background-repeat: no-repeat;
+                                 }
+             .sunshine-texta {
+                 flex-direction: column;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 margin: 60px;
+                                                                                 }
+                  .sunshine-text {
+                      display: flex;
+                      justify-content: center;
+                      flex-direction: column;
+                      align-items: center;
+                      padding: 50px;
+                      color: #FFFFFF;
+                      font-weight: 700;
+                      font-family: "DM Sans", sans-serif;
+                      font-size: 25px;
+                  }
+                  .sunshine-photoblog {
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      flex-direction: column;
+                      gap: 50px;
+                  }
+             .sunshine-lorem {
+                 display: flex;
+                 align-items: center;
+                 flex-direction: column;
+                 justify-content: center;
+                 gap: 10px;
+             }
+            
+             .sunshine-lorem {
+                 font-weight: 400;
+                 font-size: 16px;
+                 font-family: "DM Sans", sans-serif;
+                 color: #FFFFFF;
+                 opacity: 70%;
+             }
+.photoblog {
+    width: 375px;
+    height: 900px;
+    background-color: #FFFFFF;
+
+    .photoblog-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        font-size: 40px;
+        font-weight: 700;
+        font-family: "DM Sans", sans-serif;
+    }
+    .photoblog-lorem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #6F7787;
+    }
+                .box-one {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin: 10px;
+                    gap: 30px;
+                }
+}
 }
 @media (min-width: 760px)
 {
@@ -428,9 +374,190 @@
                 }
                 .main-numbers {
                     width: auto;
-                        height: 794px;
+                        height: 750px;
                         background-position: center;
                         background-size: cover;
                         background-color: rgba(1, 10, 32, 1);
+                }
+                .numbers-span {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 60px;
+                    font-weight: 700;
+                    font-family: "DM Sans", sans-serif;
+                    gap: 50px;
+                    color: #FFFFFF;
+                    padding: 50px;
+                }
+                .columns {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .section-hills {
+                    background-image: url(/images/left-decor.webp);
+                        width: 1920px;
+                        height: 621px;
+                        background-repeat: no-repeat;
+                }
+                .section-hill {
+                    background-image: url(/images/right-decor.webp);
+                        width: 1920px;
+                        height: 600px;
+                        background-repeat: no-repeat;
+                        background-position: right;
+                }
+                .hills-direction {
+                    display: flex;
+                    padding: 30px;
+                }
+                .our-hills {
+                    display: flex;
+                    align-items: center;
+                }
+                .nothing {
+                display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 40px;
+                    font-weight: 700;
+                    font-family: "DM Sans", sans-serif;
+                }
+                .hills-directions {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .hills-button {
+                    display: flex;
+                        justify-content: center;
+                        align-items: center;
+                }
+                .section-hill {
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 50px;
+                }
+                .main-sunshine {
+                    background-color: rgba(1, 10, 32, 1);
+                        width: auto;
+                        height: 1476px;
+                        background-position: center;
+                        background-size: cover;
+                }
+                .sunshine-text {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 50px;
+                    color: #FFFFFF;
+                    font-weight: 700;
+                    font-family: "DM Sans", sans-serif;
+                    font-size: 25px;
+                    gap: 10px;
+                }
+                .live-main {
+                    display: flex;
+                    justify-content: center;
+                    width: 1056px;
+                    height: 594px;
+                }
+                .sunshine-texta {
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 padding: 200px;
+                 gap: 60px;
+
+                }
+                .sunshine-lorem {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 10px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    font-family: "DM Sans", sans-serif;
+                    color: #FFFFFF;
+                    opacity: 70%;
+                }
+                .columns-lorem {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .photoblog {
+                    width: 1920px;
+                    height: 1688px;
+                }
+                .photoblog-main {
+                  display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      flex-direction: column;
+                      padding: 20px;
+                      font-size: 40px;
+                      font-weight: 700;
+                      font-family: "DM Sans", sans-serif;
+                }
+                .photoblog-lorem {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 20px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #6F7787;
+                }
+                .lorem-photobloging {
+                    display: flex;
+                    flex-direction: row;
+                }
+                .box-photo {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .box-one {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+                .first-img {
+                    width: 370px;
+                    height: 530px;
+                }
+                .second-img {
+                    width: 370px;
+                    height: 210px;
+                }
+                .fourth-img {
+                    width: 370px;
+                    height: 210px;
+                }
+                .five-img {
+                    width: 370px;
+                    height: 530px;
+                }
+                .third-img {
+                    width: 370px;
+                    height: 370px;
+                }
+                .six-img {
+                    width: 370px;
+                    height: 370px;
+                }
+                .flex-dir {
+                    display: flex;
+                    align-items: center;
+                    margin: 0px 0px 10px 0px;
+                    padding: 500px;
+                    justify-content: right;
                 }
 }
