@@ -1,563 +1,425 @@
 .main-section {
     background-image: url(/images/walking.webp);
-    width: 375px;
-        height: 1554px;
-        background-position: center;
-        background-size: cover;
-        background-color: rgba(1, 10, 32, 1);
-        .photo {
-            margin: 30px 0px 0px 0px;
+    width: 100%;
+    min-height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(1, 10, 32, 1);
+    padding: 60px 0;
+
+    .photo {
+        margin: 30px 0;
+
+        img {
+            max-width: 100%;
+            height: auto;
         }
-        .main-photo {
-            display: flex;
-            justify-content: center;
+    }
+
+    .main-photo {
+        display: flex;
+        justify-content: center;
+        padding: 0 20px;
+
+        img {
             border-radius: 10px;
+            max-width: 100%;
         }
-        .main-span {
-            display: flex;
-            flex-direction: column;
-            margin: 40px;
-            font-size: 40px;
-            font-weight: 700;
-            font-family: "DM Sans", sans-serif;
-            color: $colorWhite;
-        }
-        .second-span {
-            margin: 40px;
-            font-size: 16px;
-            font-weight: 400;
-            font-family: "DM Sans", sans-serif;
-            color: #E0E0E0;
-        }
-        .main-button {
-            display: flex;
-            justify-content: center;
-          
-        }
-        .button-main {
-            background-color: #DD2242;
-            color: $colorWhite;
-            width: 314px;
-            height: 72px;
-            border-radius: 32px;
-            border: none;
-            font-size: 18px;
-        }
+    }
+
+    .main-span {
+        display: flex;
+        flex-direction: column;
+        padding: 0 40px;
+        margin: 40px 0;
+        font-size: 32px;
+        font-weight: 700;
+        font-family: "DM Sans", sans-serif;
+        color: $colorWhite;
+        text-align: center;
+    }
+
+    .second-span {
+        padding: 0 40px;
+        margin: 20px 0 40px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "DM Sans", sans-serif;
+        color: #E0E0E0;
+        text-align: center;
+    }
+
+    .main-button {
+        display: flex;
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+    .button-main {
+        background-color: #DD2242;
+        color: $colorWhite;
+        width: 100%;
+        max-width: 314px;
+        height: 72px;
+        border-radius: 32px;
+        border: none;
+        font-size: 18px;
+        font-weight: 700;
+        cursor: pointer;
+    }
 }
+
 .main-secrets {
     background-position: center;
     background-size: cover;
     background-image: url(/images/bigmounain.webp);
-    width: 375px;
-    height: 1031px;
-            .secrets-span {
-                    display: flex;
-                    flex-direction: column;
-            
-                    font-size: 40px;
-                    font-weight: 700;
-                    font-family: "DM Sans", sans-serif;
-                    color: #010A20;
-                }
-            
-                .secter-span {
-                    display: flex;
-                    justify-content: center;
-                }
-                .nav-main {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-                .group-main {
-                    display: flex;
-                    justify-content: center;
-                    margin: 40px 0px 0px 0px;
-                }
+    width: 100%;
+    padding: 80px 20px;
+    background-color: #f8f9fa;
+
+    .secrets-span {
+        display: flex;
+        flex-direction: column;
+        font-size: 32px;
+        font-weight: 700;
+        font-family: "DM Sans", sans-serif;
+        color: #010A20;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .secter-span {
+        display: flex;
+        justify-content: center;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    .nav-main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .group-main {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0 0 0;
+
+        img {
+            max-width: 100%;
+        }
+    }
 }
+
 .main-numbers {
-    width: 376px;
-    height: 1009px;
-    background-position: center;
-        background-size: cover;
-        background-color: rgba(1, 10, 32, 1);
-        .span-lorem {
-             font-family: "DM Sans", sans-serif;
-            font-size: 16px;
-            font-weight: 400;
-            margin: 30px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            color: #E0E0E0;
-        }
-        .numbers-columns {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            margin: 50px;
-        }
-        .hundread {
-            color: #DD2242;
-            font-size: 40px;
-            font-weight: 700;
-            font-family: "DM Sans", sans-serif;
-        }
-        .numbers-lorem {
-            font-size: 16px;
-            font-weight: 400;
-            font-family: "DM Sans", sans-serif;
-            color: #E0E0E0;
-        }
+    width: 100%;
+    padding: 80px 20px;
+    background-color: rgba(1, 10, 32, 1);
+
+    .span-lorem {
+        font-family: "DM Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0 0 50px 0;
+        display: flex;
+        text-align: center;
+        color: #E0E0E0;
+    }
+
+    .numbers-columns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .hundread {
+        color: #DD2242;
+        font-size: 40px;
+        font-weight: 700;
+        font-family: "DM Sans", sans-serif;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .numbers-lorem {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "DM Sans", sans-serif;
+        color: #A0A0A0;
+        display: block;
+    }
 }
+
 .section-hills {
     background-image: url(/images/left-decor.webp);
-    width: 375px;
-    height: 314px;
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    padding: 60px 20px;
+
     .hills-direction {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        font-size: 40px;
+        font-size: 32px;
         font-weight: 700;
-            font-family: "DM Sans", sans-serif;
+        font-family: "DM Sans", sans-serif;
+        text-align: center;
     }
 }
+
 .section-hill {
     background-image: url(/images/right-decor.webp);
-        width: 375px;
-        height: 314px;
-        .hills-directions {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            color: #6F7787;
-            font-size: 16px;
-            font-weight: 400;
-            font-family: "DM Sans", sans-serif;
-        }
-        .hills-button {
-            display: flex;
-            justify-content: center;
-            margin: 20px;
-        }
-        .hills-btn {
-            width: 314px;
-            height: 73px;
-            border-radius: 122px;
-            border: none;
-            background-color: #DD2242;
-            color: #FFFFFF;
-                font-family: "DM Sans", sans-serif;
-                font-weight: 700;
-        }
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    padding: 60px 20px;
+
+    .hills-directions {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        color: #6F7787;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "DM Sans", sans-serif;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .hills-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hills-btn {
+        width: 100%;
+        max-width: 314px;
+        height: 73px;
+        border-radius: 122px;
+        border: none;
+        background-color: #DD2242;
+        color: #FFFFFF;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 700;
+        cursor: pointer;
+    }
 }
+
 .main-sunshine {
     background-image: url(/images/liveokaxf.webp);
-        width: 375px;
-        height: 1601px;
-        background-position: center;
-        background-size: cover;
-                    margin: 0px;
-        .sunshine-photoblog {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            gap: 50px;
-        }
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 20px;
 
-        .sunshine-texting {
-            font-weight: 700;
-            font-size: 22px;
-            font-family: "DM Sans", sans-serif;
-            color: #FFFFFF;
+    .sunshine-photoblog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .sunshine-texting {
+        font-weight: 700;
+        font-size: 22px;
+        font-family: "DM Sans", sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .sunshine-images {
+        padding: 0;
+        width: 100%;
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
         }
-        .sunshine-images {
-            padding: 20px;
-        }
+    }
 }
 
 .image-box {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    .box-one {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            margin: 10px;
-            gap: 30px;
-        }
-    
-        .box-two {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            margin: 10px;
-            gap: 30px;
-        }
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+
+    .box-one,
+    .box-two {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
 }
-@media (max-width: 760px) {
-        .explore {
-                display: none;
-            }
-            .numbers-span {
-                display: flex;
-                justify-content: center;
-                flex-direction: column;
-                align-items: center;
-                font-size: 40px;
-                font-weight: 700;
-                font-family: "DM Sans", sans-serif;
-                color: $colorWhite;
-            }
-            .our-hills {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            .nothing {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    font-size: 42px;
-                    font-weight: 700;
-                            font-family: "DM Sans", sans-serif;
-                }
-                                 .section-hills {
-                                     background-image: url(/images/left-decor.webp);
-                                     width: 375px;
-                                     height: 621px;
-                                     background-repeat: no-repeat;
-                                 }
-             .sunshine-texta {
-                 flex-direction: column;
-                 display: flex;
-                 justify-content: center;
-                 align-items: center;
-                 margin: 60px;
-                                                                                 }
-                  .sunshine-text {
-                      display: flex;
-                      justify-content: center;
-                      flex-direction: column;
-                      align-items: center;
-                      padding: 50px;
-                      color: #FFFFFF;
-                      font-weight: 700;
-                      font-family: "DM Sans", sans-serif;
-                      font-size: 25px;
-                  }
-                  .sunshine-photoblog {
-                      display: flex;
-                      justify-content: center;
-                      align-items: center;
-                      flex-direction: column;
-                      gap: 50px;
-                  }
-             .sunshine-lorem {
-                 display: flex;
-                 align-items: center;
-                 flex-direction: column;
-                 justify-content: center;
-                 gap: 10px;
-             }
-            
-             .sunshine-lorem {
-                 font-weight: 400;
-                 font-size: 16px;
-                 font-family: "DM Sans", sans-serif;
-                 color: #FFFFFF;
-                 opacity: 70%;
-             }
+
 .photoblog {
-    width: 375px;
-    height: 900px;
+    width: 100%;
     background-color: #FFFFFF;
+    padding: 80px 20px;
 
     .photoblog-main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 20px;
-        font-size: 40px;
+        font-size: 32px;
         font-weight: 700;
         font-family: "DM Sans", sans-serif;
+        text-align: center;
+        margin-bottom: 20px;
     }
+
     .photoblog-lorem {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 20px;
         font-weight: 400;
         font-size: 16px;
         color: #6F7787;
+        text-align: center;
+        margin-bottom: 50px;
     }
-                .box-one {
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
-                    margin: 10px;
-                    gap: 30px;
-                }
-}
-}
-@media (min-width: 760px)
-{
-    .main-section {
-        width: auto;
-        height: 1624px;
-        margin: 0;
-    }
-    .main-photo {
-        display: flex;
-        justify-content: center;
-    }
-    .photo {
-        width: 630.3433837890625px;
-        height: 460px;
-    }
-    .main-photoa {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 50px;
-        padding: 100px;
-    }
-    .info-main {
+
+    .lorem-photobloging {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        gap: 30px;
     }
-    .second-span {
-        display: flex;
-            flex-direction: column;
-            align-items: center;
-    }  
-                .main-secrets {
-                    background-position: center;
-                    background-size: cover;
-                    background-image: url(/images/bigmounain.webp);
-                    width: auto;
-                    height: 2207px;
-                }
-                .secter-span {
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                }
-                .kokos {
-                    display: none;
-                }
-                 .explore {
-                     
-                     gap: 60px;
-                } 
-                .exlore-menu {
-                    display: flex;
-                    justify-content: center;
-                    gap: 40px;
-                }
-                .bi-caret-left-fill {
-                    padding: 30px;
-                }
-                .bi-caret-right-fill {
-                    padding: 30px;
-                }
-                .main-numbers {
-                    width: auto;
-                        height: 750px;
-                        background-position: center;
-                        background-size: cover;
-                        background-color: rgba(1, 10, 32, 1);
-                }
-                .numbers-span {
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    justify-content: center;
-                    font-size: 60px;
-                    font-weight: 700;
-                    font-family: "DM Sans", sans-serif;
-                    gap: 50px;
-                    color: #FFFFFF;
-                    padding: 50px;
-                }
-                .columns {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
-                .section-hills {
-                    background-image: url(/images/left-decor.webp);
-                        width: 1920px;
-                        height: 621px;
-                        background-repeat: no-repeat;
-                }
-                .section-hill {
-                    background-image: url(/images/right-decor.webp);
-                        width: 1920px;
-                        height: 600px;
-                        background-repeat: no-repeat;
-                        background-position: right;
-                }
-                .hills-direction {
-                    display: flex;
-                    padding: 30px;
-                }
-                .our-hills {
-                    display: flex;
-                    align-items: center;
-                }
-                .nothing {
-                display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    font-size: 40px;
-                    font-weight: 700;
-                    font-family: "DM Sans", sans-serif;
-                }
-                .hills-directions {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
-                .hills-button {
-                    display: flex;
-                        justify-content: center;
-                        align-items: center;
-                }
-                .section-hill {
-                    align-items: center;
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
-                    gap: 50px;
-                }
-                .main-sunshine {
-                    background-color: rgba(1, 10, 32, 1);
-                        width: auto;
-                        height: 1476px;
-                        background-position: center;
-                        background-size: cover;
-                }
-                .sunshine-text {
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: row;
-                    align-items: center;
-                    padding: 50px;
-                    color: #FFFFFF;
-                    font-weight: 700;
-                    font-family: "DM Sans", sans-serif;
-                    font-size: 25px;
-                    gap: 10px;
-                }
-                .live-main {
-                    display: flex;
-                    justify-content: center;
-                    width: 1056px;
-                    height: 594px;
-                }
-                .sunshine-texta {
-                 display: flex;
-                 align-items: center;
-                 justify-content: center;
-                 padding: 200px;
-                 gap: 60px;
 
-                }
-                .sunshine-lorem {
-                    display: flex;
-                    align-items: center;
-                    flex-direction: column;
-                    justify-content: center;
-                    gap: 10px;
-                    font-weight: 400;
-                    font-size: 16px;
-                    font-family: "DM Sans", sans-serif;
-                    color: #FFFFFF;
-                    opacity: 70%;
-                }
-                .columns-lorem {
-                    display: flex;
-                    flex-direction: column;
-                }
-                .photoblog {
-                    width: 1920px;
-                    height: 1688px;
-                }
-                .photoblog-main {
-                  display: flex;
-                      justify-content: center;
-                      align-items: center;
-                      flex-direction: column;
-                      padding: 20px;
-                      font-size: 40px;
-                      font-weight: 700;
-                      font-family: "DM Sans", sans-serif;
-                }
-                .photoblog-lorem {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                    padding: 20px;
-                    font-weight: 400;
-                    font-size: 16px;
-                    color: #6F7787;
-                }
-                .lorem-photobloging {
-                    display: flex;
-                    flex-direction: row;
-                }
-                .box-photo {
-                    display: flex;
-                    flex-direction: column;
-                }
-                .box-one {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                }
-                .first-img {
-                    width: 370px;
-                    height: 530px;
-                }
-                .second-img {
-                    width: 370px;
-                    height: 210px;
-                }
-                .fourth-img {
-                    width: 370px;
-                    height: 210px;
-                }
-                .five-img {
-                    width: 370px;
-                    height: 530px;
-                }
-                .third-img {
-                    width: 370px;
-                    height: 370px;
-                }
-                .six-img {
-                    width: 370px;
-                    height: 370px;
-                }
-                .flex-dir {
-                    display: flex;
-                    align-items: center;
-                    margin: 0px 0px 10px 0px;
-                    padding: 500px;
-                    justify-content: right;
-                }
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+}
+
+//DESKTOP REFINEMENTS (Tablet & Desktop)
+
+@media (min-width: 768px) {
+    .main-section {
+        .main-photoa {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            padding: 100px 50px;
+        }
+
+        .main-span {
+            font-size: 56px;
+            text-align: left;
+            padding: 0;
+        }
+
+        .second-span {
+            text-align: left;
+            padding: 0;
+            max-width: 500px;
+        }
+
+        .main-button {
+            justify-content: flex-start;
+            padding: 0;
+        }
+    }
+
+    .main-secrets {
+        padding: 120px 50px;
+
+        .secrets-span {
+            font-size: 56px;
+            text-align: left;
+        }
+
+        .secter-span {
+            justify-content: flex-start;
+        }
+    }
+
+    .main-numbers {
+        .numbers-columns {
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 50px 0;
+        }
+
+        .hundread {
+            font-size: 60px;
+        }
+    }
+
+    .section-hills,
+    .section-hill {
+        padding: 100px 50px;
+
+        .hills-direction {
+            font-size: 56px;
+        }
+    }
+
+    .image-box {
+        flex-direction: row;
+        justify-content: center;
+
+        .box-one,
+        .box-two {
+            flex: 1;
+            max-width: 500px;
+        }
+    }
+
+    .photoblog {
+        .lorem-photobloging {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .box-photo {
+            flex: 1;
+            min-width: 300px;
+            max-width: 400px;
+        }
+
+        .first-img {
+            height: 530px;
+            object-fit: cover;
+        }
+
+        .second-img {
+            height: 210px;
+            object-fit: cover;
+        }
+
+        .third-img {
+            height: 370px;
+            object-fit: cover;
+        }
+
+        .fourth-img {
+            height: 210px;
+            object-fit: cover;
+        }
+
+        .five-img {
+            height: 530px;
+            object-fit: cover;
+        }
+
+        .six-img {
+            height: 370px;
+            object-fit: cover;
+        }
+    }
 }
